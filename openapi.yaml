@@ -61,3 +61,4 @@ paths:
           description: Bad metadata / Invalid inputs
         409:
           description: Sold out / Event cancelled / Insufficient space
+

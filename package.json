@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "test": "NODE_ENV=test node --test tests/api.test.js"
+    "test": "NODE_ENV=test node --test --test-reporter=spec tests/setup.js tests/*.test.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
